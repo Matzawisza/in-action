@@ -14,7 +14,7 @@ library(ggmap)
 
 # Register your Google API Key
 # See: https://developers.google.com/maps/documentation/geocoding/get-api-key
-register_google(key="YOUR_GOOGLE_KEY")
+register_google(key="AIzaSyAFVfyYr6aN9lBOD9esg0JspQJwmhycjwI")
 
 # Load your Yelp API key from a separate file so that you can access the API:
 source("api_key.R") # the `yelp_key` variable is now available
