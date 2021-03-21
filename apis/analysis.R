@@ -27,10 +27,10 @@ search_uri <- paste0(base_uri, endpoint)
 # Store a list of query parameters for Cuban restaurants around Seattle
 query_params <- list(
   term = "restaurant",
-  categories = "cuban",
-  location = "Seattle, WA",
+  categories = "vegan",
+  location = "Warsaw",
   sort_by = "rating",
-  radius = 8000 # measured in meters, as detailed in the documentation
+  radius = 18000 # measured in meters, as detailed in the documentation
 )
 
 # Make a GET request, including the API key (as a header) and the list of
